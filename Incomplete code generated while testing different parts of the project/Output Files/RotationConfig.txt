@@ -1,0 +1,1 @@
+{'reading270deg': 2.67, 'reading90deg': 1.245, 'reading0deg': 1.976, 'avgSlope': -126.40100608301765, 'reading180deg': 0.559}

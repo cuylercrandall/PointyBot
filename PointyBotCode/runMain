@@ -1,0 +1,13 @@
+#!/bin/bash 
+#Kristina Nemeth (kan57) & Cuyler Crandall (csc254)
+
+#Kill the deamon if it is running, then start it
+sudo killall pigpiod
+sudo pigpiod
+
+#Start the output in the background then the foregound GUI
+python /home/pi/PointyBot/PointyBotCode/pointingProcess.py &
+python /home/pi/PointyBot/PointyBotCode/main.py
+
+#Re-kill the pigpio daemon
+sudo killall pigpiod

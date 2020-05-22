@@ -1,0 +1,6 @@
+#!/bin/bash 
+#Kristina Nemeth (kan57) & Cuyler Crandall (csc254)
+
+#first line of the file sets up the bash file
+python pointingProcess.py &
+python targetUpdater.py

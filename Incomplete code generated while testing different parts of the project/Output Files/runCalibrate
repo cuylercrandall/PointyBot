@@ -1,0 +1,10 @@
+#!/bin/bash 
+#Kristina Nemeth (kan57) & Cuyler Crandall (csc254)
+
+#Kill the deamon if it is running
+sudo killall pigpiod
+sudo pigpiod
+
+#fStart the output in the background then the foregound GUI
+python calibrateServos.py & 
+sleep 30
